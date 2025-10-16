@@ -73,7 +73,7 @@ You can use the module like this in your web app:
 
 ---
 
-## 🧠 Notes
+## Notes
 
 * The camera cannot access device orientation APIs in Chrome due to privacy restrictions, so movement is limited to keyboard or manual input.
 * For local testing, serve your files through a web server:                                 (you should remove the hashtag from the CMake file)
