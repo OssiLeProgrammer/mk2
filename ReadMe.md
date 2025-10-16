@@ -4,7 +4,7 @@ A simple physics-based space simulation written in C++ and compiled to WebAssemb
 
 ---
 
-## 🧱 Prerequisites
+## Prerequisites
 
 If you want to **build the project yourself**:
 
@@ -31,12 +31,12 @@ After building, the important files will appear in the `build/` directory:
 
 These two files together form the compiled WebAssembly module.
 
-> 💡 **Note:** If you only want to *use* the simulator and not build it yourself, you don’t need Emscripten.
+> **Note:** If you only want to *use* the simulator and not build it yourself, you don’t need Emscripten.
 > You can simply use the existing `MyProject.js` and `MyProject.wasm` from the `build` folder.
 
 ---
 
-## 🚀 The Space Simulator
+## The Space Simulator
 
 The project is split into several logical parts under the `src/` directory:
 
@@ -52,7 +52,7 @@ The simulation computes gravitational interactions between planets by summing fo
 
 ---
 
-## 🧩 The JavaScript Module
+## The JavaScript Module
 
 The JavaScript interface to the simulation is defined by the generated files:
 
